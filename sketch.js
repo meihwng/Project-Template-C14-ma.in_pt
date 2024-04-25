@@ -68,7 +68,7 @@ function draw() {
   
   if (arrowGroup.isTouching(redB)) {
     
-    //redB.destroyEach();
+    redB.destroyEach();
     //redB.destroy();
     //redB.Each();
     //ballon.destroyEach();
@@ -149,6 +149,6 @@ function pinkBalloon() {
   //arrowGroup.addGroup(arrow);
   //arrow.add(arrowGroup);
   //arrowGroup.add();
-  //arrowGroup.add(arrow);
+  arrowGroup.add(arrow);
    
 }
